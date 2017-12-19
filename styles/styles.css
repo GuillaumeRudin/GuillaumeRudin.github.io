@@ -6,3 +6,26 @@ main, header {
   margin: auto;
   text-align: left;
 }
+
+main {
+  background: red;
+}
+@media screen and (min-width: 640px) {
+    .catalog-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 12px;
+    }
+}
+.catalog-datetime,
+.catalog-location,
+.profile-card {
+  display: block;
+  background: white;
+  border-radius: 12px;
+}
+.catalog-datetime,
+.catalog-location {
+  padding: 12px;
+}
