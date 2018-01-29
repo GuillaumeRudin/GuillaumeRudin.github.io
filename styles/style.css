@@ -45,7 +45,7 @@ h2 {
 }
 mark{
     background-color: transparent;
-    color: mediumvioletred
+    color: #FF4E4F.
 }
 
 .card {
@@ -117,6 +117,7 @@ mark{
     font-weight: bold
 }
 
+
 .tags-list {
     list-style: none;
     padding: 0;
@@ -125,4 +126,8 @@ mark{
 
 .series{
     color: white;
+}
+
+.logo{
+    
 }
